@@ -47,7 +47,7 @@ public class Solution
         return head;
     }
 
-    // Re-attempt, using a data structure to achieve this
+    // Re-attempt, using a counter to track the target
     public ListNode removeNthFromEnd_v2 (ListNode head)
     {
         if (head == null)
